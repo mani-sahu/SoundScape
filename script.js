@@ -53,3 +53,37 @@ tl.to(".overlay-div", {
 tl.to(".scrolling", {
     width: "100%"
 }, "same")
+
+// part-2 -------------------------------------------------------
+
+var tl2 = gsap.timeline({scrollTrigger:{
+    trigger: ".part-2",
+    start: "0% 70%",
+    end: "60% 60%",
+    scrub: true,
+    // markers: true,
+    // pin: true,
+}})
+
+tl2.to(".rounded-div-wrapper",{
+    height:0,
+    marginTop:0 
+})
+
+
+let tl3 = gsap.timeline({
+    scrollTrigger:{
+        trigger: ".content-2",
+        start:"20% 50%",
+        end: "100% 50%",
+        // markers: true,
+        scrub: 1,
+    },  
+});
+tl3.to(".content-2 .text-area-hover h1",{
+    width:"100%",
+})
+tl3.to(".content-2 .text-area-hover h2",{
+    delay: -0.4,
+    width:"100%",
+})
