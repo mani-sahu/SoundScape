@@ -220,7 +220,7 @@ nav{
     opacity: .2;
     left: 5%;
     width: 100%;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .text-area-hover{
@@ -255,7 +255,7 @@ nav{
 .part-3{
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: 30vh;
     background-color: #fff;
 }
 
@@ -287,13 +287,14 @@ nav{
     flex-direction: column;
     background-color: rgb(0, 0, 0);
     border-radius: 50px;
-    padding: 1.5vw 3vw;
+    padding: 1.5vw 2vw;
     cursor: pointer;
-    font-size: medium;
+    /* font-size: medium; */
 }
 
 .cta-txt{
-    height: 5vh;
+    /* height: 5vh; */
+    height: 4vh;
     color: #fff;
     overflow: hidden;
 }
@@ -303,7 +304,8 @@ nav{
 }
 
 .cta-book:hover h2:nth-child(1){
-    margin-top: -5vh;
+    /* margin-top: -5vh; */
+    margin-top: -4.5vh;
 }
 
 .cta-book-2{
@@ -321,4 +323,68 @@ nav{
     width: 100%;
     height: 15vh;
     background-color: #000;
+}
+
+
+/* ------------------ part-4 --------------------------------- */
+
+
+.part-4{
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.lft-part-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+    width: 50%;
+    height: 100%;
+}
+
+.lft-part-4 h1{
+    font-size: 8vw;
+    /* color: #000; */
+}
+
+.cir-part-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vw;
+    height: 6vw;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+}
+
+.rgt-part-4{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 40vh;
+    width: 50%;
+    height: 200%;
+    margin-top: 25%;
+    padding-left: 8vw;
+}
+
+.content-rgt-part-4{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    opacity: 0;
+}
+
+.content-rgt-part-4 h1{
+    font-size: 2.5vw;
+}
+
+.content-rgt-part-4 p{
+    font-size: 1.5vw;
+    width: 75%;
+    
 }
