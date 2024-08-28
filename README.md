@@ -1,6 +1,6 @@
-# 🎧SoundScape
+# 🎧 SoundScape
 
-## Project Overview
+## 💡 Project Overview
 
 Welcome to **SoundScape**, your premier online destination for the latest and greatest in headphones, speakers, earphones, and more. Our website combines a sleek design with modern animations to deliver a seamless and engaging shopping experience for all audiophiles.
 
@@ -23,5 +23,6 @@ Contributions are welcome! Please fork the repository, make your changes, and su
 
 ## ✍️ Author
 
-1. Himanshu Gupta - [GitHub Profile](https://github.com/himanshu181749/)
-2. Manisha Sahu - [GitHub Profile](https://github.com/mani-sahu)
+1. Manisha Sahu - [GitHub Profile](https://github.com/mani-sahu)
+2. Himanshu Gupta - [GitHub Profile](https://github.com/himanshu181749/)
+   
