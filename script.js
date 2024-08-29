@@ -98,7 +98,7 @@ let tl4 = gsap.timeline({
         start:"50% 50%",
         end: "200% 50%",
         pin: true,
-        markers: true,
+        // markers: true,
         scrub: 1,
     },  
 });
@@ -141,3 +141,23 @@ tl4.to(".cir-part-4",{
     marginLeft: "100%",
     rotate: 360
 }, "4")
+
+
+// ---- Part 5 -------------------
+
+let tl5 = gsap.timeline({
+    scrollTrigger:{
+        trigger: ".part-5",
+        start:"20% 50%",
+        end: "100% 50%",
+        // markers: true,
+        scrub: 1,
+    },  
+});
+tl5.to(".part-5 .text-area-hover h1",{
+    width:"100%",
+})
+tl5.to(".part-5 .text-area-hover h2",{
+    delay: -0.4,
+    width:"100%",
+})
